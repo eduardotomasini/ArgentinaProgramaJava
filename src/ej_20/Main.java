@@ -72,8 +72,12 @@ public class Main {
         } while (otraPersona==false);
      
         
-        for (Persona persona1 : personaArray) {
-            System.out.println(persona1);
+//        for (Persona persona1 : personaArray) {
+//            System.out.println(persona1);
+//        }
+        
+        for (int i = 0; i < personaArray.size(); i++) {
+            System.out.println(personaArray.get(i) + " " + i);
         }
 
 

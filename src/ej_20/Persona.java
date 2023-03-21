@@ -97,4 +97,13 @@ public class Persona {
         return p1;
 }
     
+    Persona modificarPersona(){
+        Persona persMod = new Persona();
+        
+        
+        return persMod;
+    }
+    
+    
+    
 }
