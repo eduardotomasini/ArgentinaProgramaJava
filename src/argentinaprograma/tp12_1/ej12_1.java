@@ -3,6 +3,7 @@ package argentinaprograma.tp12_1;
 
 import java.util.Calendar;
 import java.util.Date;
+import java.util.Locale;
 import java.util.Scanner;
 import java.util.concurrent.TimeUnit;
 
@@ -32,7 +33,9 @@ public class ej12_1 {
         
         Date horaActual = new Date();
         
+
         //System.out.println(estadia);
+        
         
         long tiempoTranscurrido = horaActual.getTime() - estadia.getTime();
         
@@ -40,6 +43,7 @@ public class ej12_1 {
         
         TimeUnit unidadH = TimeUnit.HOURS;
         
+        System.out.println("tiempo transcurrido " + tiempoTranscurrido);
         
         long minutos = unidadM.convert(tiempoTranscurrido, TimeUnit.MILLISECONDS);
         long horas = unidadH.convert(tiempoTranscurrido, TimeUnit.MILLISECONDS);

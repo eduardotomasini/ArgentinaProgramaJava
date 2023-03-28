@@ -36,25 +36,25 @@ public class Main {
                 min= auto[i];
             }
         }
-        System.out.println("\nmaximo "+ max + ""
-                + "\nminimo " + min);
+        System.out.println("\nmaximo "+ max + "\n"
+                + "\nminimo " + min + "\n");
         
         
-        // Método Burbja
-//        for (int i = 0; i < (auto.length-1); i++) {
-//            for (int j = 0; j < (auto.length-1); j++) {
-//                if (auto[j] > auto[j + 1]) {
-//                    aux = auto[j];
-//                    auto[j] = auto[j + 1];
-//                    auto[j + 1] = aux;
-//
-//                }
-//            }
-//        }
-//
-//        for (int i = 0; i < auto.length; i++) {
-//            System.out.println("autos " + auto[i]);
-//        }
+        // Método Burbuja
+        for (int i = 0; i < (auto.length-1); i++) {
+            for (int j = 0; j < (auto.length-1); j++) {
+                if (auto[j] > auto[j + 1]) {
+                    aux = auto[j];
+                    auto[j] = auto[j + 1];
+                    auto[j + 1] = aux;
+
+                }
+            }
+        }
+
+        for (int i = 0; i < auto.length; i++) {
+            System.out.println("autos " + auto[i]);
+        }
 
         
        
