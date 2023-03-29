@@ -52,8 +52,6 @@ public class Main {
             // y me arroja si son mayores de edad o no
             persona.calcularEdad(listaPersonas.get(i).getFechaNacimiento());
             
-            
-            
             // recorro cada Objeto de la clase persona
             persona.RecorrerCiudad(listaPersonas.get(i).ciudad);
 
@@ -68,8 +66,6 @@ public class Main {
                         + listaPersonas.get(i).getNombre());
             }
 
-            
-       
         }
 
         
